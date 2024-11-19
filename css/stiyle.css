@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+/* Restablece los estilos predeterminados del navegador para todos los elementos */
+
+header {
+    position: relative;
+    width: 600px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #7e5959;
+    color: white;
+    font-weight: bold;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+/* Estilos para la sección del encabezado, centrado con un fondo azul y texto blanco */
+
+#calculadora {
+    position: relative;
+    margin: 20px auto;
+    width: 400px;
+    height: 600px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background: #7e5959;
+}
+/* Estilos para el contenedor de la calculadora, centrado con un fondo gris claro */
+
+#operaciones {
+    position: relative;
+    margin: 20px auto;
+    width: 70%;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #999;
+    padding: 10%;
+    text-align: right;
+    font-size: 25px;
+    overflow: hidden;
+}
+/* Estilos para el área de visualización de operaciones, centrado con un fondo blanco y sombra */
+
+#calculadora ul {
+   margin-left: 5px;
+}
+/* Añade margen izquierdo a la lista desordenada dentro de la calculadora */
+
+#calculadora ul li {
+    float: left;
+    padding: 32px;
+    width: 15px;
+    text-align: center;
+    margin: 8px;
+    background: white;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #999;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Estilos para cada botón en la calculadora, con padding, margen y sombra */
+
+#calculadora ul li:hover {
+    background: rgb(77, 116, 116);
+    color: white;
+}
+/* Cambia el fondo y el color del texto cuando se pasa el ratón sobre un botón */
+
+#calculadora ul li:active {
+    background: rgb(155, 105, 155);
+    color: white;
+}
+/* Cambia el fondo y el color del texto cuando se hace clic en un botón */
+
+#borrar {
+    position: absolute;
+    bottom: 10px;
+    padding: 5px 15px;
+    width: 60px;
+    background: rgb(163, 118, 163);
+    border-radius: 10px;
+    left: 150px;
+    border: 5px solid #bbb;
+    color: white;
+    cursor: pointer;
+}
+/* Estilos para el botón de borrar, posicionado en la parte inferior con fondo magenta */
+
+#borrar:hover {
+    background: purple;
+}
+/* Cambia el color de fondo cuando se pasa el ratón sobre el botón de borrar */
+
+#borrar:active {
+    background: cyan;
+}
+/* Cambia el color de fondo cuando se hace clic en el botón de borrar */
+
+footer {
+    text-align: center;
+    color: brown;
+}
